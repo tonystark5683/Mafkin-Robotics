@@ -1,24 +1,24 @@
-import React,{Component} from 'react'
+import React from 'react'
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import './Partner.css'
 import { motion } from 'framer-motion';
 import { desVaraints } from '@/src/utils/animation';
-class Partner extends Component{
-  render(){
-    const settings = {
-      dots:true,
-      infinite:true,
-      slidesToShow:3,
-      slideToScroll:1,
-      autoplay:true,
-      speed:2000,
-      autoplaySpeed:2000,
-      cssEase:"linear"
-    };
-    return(
-      <div className='mainContainer'>
+
+const Partner = () => {
+  const settings = {
+    dots:true,
+    infinite:true,
+    slidesToShow:3,
+    slideToScroll:1,
+    autoplay:true,
+    speed:2000,
+    autoplaySpeed:2000,
+    cssEase:"linear"
+  };
+  return (
+    <div className='mainContainer'>
         <div className='parter-content'>
 
         <h2 className='tag'>Our Partners</h2>
@@ -41,10 +41,7 @@ class Partner extends Component{
 
         </Slider>
       </div>
-
-    )
-  }
+  )
 }
 
-
-export default Partner;
+export default Partner
