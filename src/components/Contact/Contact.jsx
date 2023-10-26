@@ -141,7 +141,7 @@ const Contact = () => {
                 <div className="c-overlay-panel c-overlay-left">
                   <h1>Contact Now </h1>
                   <p>
-                    To stay connected with us, please login with your personal
+                    To stay connected with us, please Contact with your personal
                     info
                   </p>
                   <button className="ghost c-button" id="signIn">
