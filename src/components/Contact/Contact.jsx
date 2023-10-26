@@ -141,8 +141,8 @@ const Contact = () => {
                 <div className="c-overlay-panel c-overlay-left">
                   <h1>Contact Now </h1>
                   <p>
-                    To stay connected with us, please Contact with your personal
-                    info
+                    Embark on a journey of unrivaled maritime excellence. Contact us now to experience first-rate ship hull cleaning services
+
                   </p>
                   <button className="ghost c-button" id="signIn">
                     Contact
@@ -151,7 +151,7 @@ const Contact = () => {
                 <div className="c-overlay-panel c-overlay-right">
                   <h1>Want to Collaborate</h1>
                   <p>
-                    Enter your personal details and start the journey with us
+                    Excited to explore more? Don't hesitate to get in touch and let's make your vision a reality! Drop your message now.
                   </p>
                   <button className="ghost c-button" id="signUp">
                     Collaborate
