@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styled, { ThemeProvider } from "styled-components";
 import { FaArrowUp } from "react-icons/fa";
-
+import './GoToTop.css'
 const GoToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -27,6 +27,7 @@ const GoToTop = () => {
   }, []);
 
   return (
+    <div  className="Gototop">
     <ThemeProvider
       theme={{
         colors: {
@@ -46,6 +47,7 @@ const GoToTop = () => {
         )}
       </Wrapper>
     </ThemeProvider>
+    </div>
   );
 };
 
@@ -90,7 +92,7 @@ const Wrapper = styled.section`
   @media (max-width: ${({ theme }) => theme.media.mobile}) {
     .top-btn {
       right: 0;
-      left: 85%;
+      left: 80%;
     }
   }
 `;

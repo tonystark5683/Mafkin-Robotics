@@ -1,5 +1,7 @@
 .m-wrapper{
     margin-top: 2rem;
+    position: relative;
+
 }
 
 .m-container{
@@ -8,6 +10,7 @@
     padding: 2.6rem;
     gap: 2rem;
 }
+
 .m-left{
     background: var(--allbgcolor);
     flex: 30%;
