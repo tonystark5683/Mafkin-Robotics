@@ -252,6 +252,7 @@
 }
 
 .c-button {
+  cursor: pointer;
 	border-radius: 20px;
 	border: 1px solid #b6fffa;
   background-color:  var(--allbgcolor);
@@ -269,6 +270,29 @@
 }
 
 .c-button:focus {
+	outline: none;
+}
+
+.cc-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+	border-radius: 999px;
+	border: 1px solid #b6fffa;
+  background-color:  var(--allbgcolor);
+	color: #FFFFFF;
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+.cc-button:active {
+	transform: scale(0.95);
+}
+
+.cc-button:focus {
 	outline: none;
 }
 
@@ -363,7 +387,6 @@ textarea{
 
 .c-overlay-container {
 	position: absolute;
-
 	top: 0;
 	left: 50%;
 	width: 50%;
@@ -411,7 +434,7 @@ textarea{
 	transition: transform 0.6s ease-in-out;
 }
 .c-overlay-panel p{
-  margin: 10px;
+  padding: 20px;
 }
 .c-overlay-left {
 	transform: translateX(-20%);
