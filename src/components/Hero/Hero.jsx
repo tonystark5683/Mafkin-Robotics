@@ -44,15 +44,13 @@ function Hero() {
               <span>We Keeps Fleet Clean</span>
               <TypeAnimation
                 sequence={[
-                  "Using Best Modern Robots",
+                  "60% increase in cleaning efficiency",
                   2000,
-                  "with Sustainabilty",
+                  "20% increase in fuel efficiency",
                   2000,
-                  "With safe  operation",
+                  "Standardized waste management",
                   2000,
-                  "with no downtime",
-                  2000,
-                  "With high time effieciency",
+                  "Protection of anti-fouling coating",
                   2000,
                 ]}
                 speed={50}
