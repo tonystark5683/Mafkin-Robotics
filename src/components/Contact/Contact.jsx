@@ -116,9 +116,6 @@ const Contact = ({ initialEmailValue }) => {
           <div></div>
         </div>
         <p className="c-text">
-          Embark with unwavering confidence. Reach out to us today for
-          unparalleled excellence in ship hull cleaning services, ensuring
-          smooth sailing and optimal vessel performance.
         </p>
       </div>
 
@@ -126,34 +123,29 @@ const Contact = ({ initialEmailValue }) => {
         <div className="contact-info">
           <div className="c-info">
             <span className="fas">
+              <FaMobileAlt />
+            </span>
+            <span>Phone No.</span>
+            <span className="c-text">+917977673899</span>
+          </div>
+          <div className="c-info">
+            <span className="fas">
               <FaMapMarkerAlt />
             </span>
             <span>Address</span>
             <span className="c-text">
-              2939 Patrick Street, Victoria TX, United States
+            Incubated in Vellore Institute of Technology, Chennai, Tamil Nadu, India
+
             </span>
-          </div>
-          <div className="c-info">
-            <span className="fas">
-              <FaMobileAlt />
-            </span>
-            <span>Phone No.</span>
-            <span className="c-text">1-2392-23928-2</span>
           </div>
           <div className="c-info">
             <span className="fas">
               <FaEnvelopeOpen />
             </span>
             <span>E-mail</span>
-            <span className="c-text">mail@company.com</span>
+            <span className="c-text">mafkinrobotics@gmail.com</span>
           </div>
-          <div className="c-info">
-            <span className="fas">
-              <FaClock />
-            </span>
-            <span>Opening Hours</span>
-            <span className="c-text">Monday - Friday (9:00 AM to 5:00 PM)</span>
-          </div>
+          
         </div>
         <div className="cc-form">
           <div className="c-container" id="c-container">
