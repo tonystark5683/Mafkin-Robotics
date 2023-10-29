@@ -57,11 +57,11 @@
     width: 20px;
     height: 15px;
     background: url(./xmark-solid.svg) no-repeat 0 0;
-    transition: all 0.5s ease;
+    transform: rotate(45deg);
 }
 
 .service-right input:checked + label::after{
-    transform: rotate(45deg);
+    transform: rotate(90deg);
 }
 
 .collapsible-text-1,
