@@ -60,6 +60,7 @@
   border-radius: 15px;
   padding: 20px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+  margin-bottom: 2.6rem;
 }
 .tt-wrapper h2{
   text-align: center;
@@ -242,9 +243,9 @@
     margin: 3px;
   }
   .team-mem img{
-    width: 60px;
-    height: 60px;
-    margin: 5px;
+    width: 70px;
+    height: 70px;
+    margin: 4px;
   }
   .team-mem h4{
     text-align: center;

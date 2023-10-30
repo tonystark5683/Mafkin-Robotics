@@ -100,7 +100,7 @@ const Navbar = () => {
             to="contact-section"
             spy={true}
             smooth={true}
-            offset={-65}
+            offset={-58}
             onClick={() => setopen(false)}
           >
             <div className="mget-quote">Contact Us</div>
