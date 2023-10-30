@@ -28,12 +28,11 @@ const Section = () => {
             whileInView={"onscreen"}
             className="text"
           >
-            Mafkin Robotics is revolutionizing the maritime sector by tackling
-            the drawbacks of manual ship hull cleaning through the innovation of
-            a completely automated cleaning solution. By leveraging advanced
-            technology, Mafkin Robotics aims to enhance efficiency and
-            effectiveness in ship maintenance, contributing to a more
-            sustainable and streamlined maritime industry.
+            Our mission is to revolutionize the maritime sector by automating
+            ship hull cleaning, addressing the drawbacks of manual methods and
+            enhancing fuel efficiency and effectiveness in ship maintenance.
+            This contributes to a more sustainable and streamlined maritime
+            industry easing operations in Ship Husbandry.
           </motion.span>
 
           <motion.div

@@ -6,13 +6,14 @@
 
 
 }
-/* .ocean-bg2{
+.ocean-bg2{
 
+    background: url("./picture2.jpg");
     overflow: hidden;
     background-size: cover;
 
 
-} */
+}
 
 .app{
     position: relative;

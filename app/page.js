@@ -17,6 +17,7 @@ import GoToTop from "@/src/components/GoToTop/GoToTop";
 import Contact from "@/src/components/Contact/Contact";
 import HBottom from "@/src/components/HBottom/HBottom";
 import AboutUs from "@/src/components/AboutUs/AboutUs";
+import Timeline from "@/src/components/Timeline/Timeline";
 export default function Home() {
   const controls = useAnimation();
 
@@ -26,20 +27,23 @@ export default function Home() {
       {/* <AboutUs/> */}
       <Hero />
       <HBottom />
+      
       {/* <BrandingVedio /> */}
       <Section />
       <div className="ocean-bg1">
         <WhatWeDo />
-        <OurDiff />
+        {/* <OurDiff /> */}
       </div>
 
-      <div className="ocean-bg2">
+      
         <OurProcess />
-        <Partner />
+        {/* <Partner /> */}
         <Map />
-        <Faq />
+        <div className="ocean-bg2">
+        <Timeline/></div>
+        {/* <Faq /> */}
         <OurTeam />
-      </div>
+      
       <Contact />
       <GoToTop />
       <Footer />

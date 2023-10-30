@@ -15,11 +15,9 @@ const Map = () => {
           viewport={{ once: false, amount: 0.7 }}
           className="m-left"
         >
-          <motion.span className="tag">Our Serviced Ports</motion.span>
+          <motion.span className="tag">Our Targeted Ports</motion.span>
           <motion.span className="text">
-            Delve into the ports we currently service and explore our
-            comprehensive range of offerings tailored to these specific maritime
-            hubs.
+          Mafkin Robotics is poised to revolutionize ship cleaning in India&apos;s busiest ports, starting with Jawaharlal Nehru Port Trust-JNPT, Mumbai Port, Chennai Port, and Paradip Port. Our autonomous and semi-autonomous robots are the future of ship cleaning, offering unparalleled efficiency, safety, and sustainability.
           </motion.span>
           <Lottie animationData={temp} className="lottie" />
         </motion.div>
