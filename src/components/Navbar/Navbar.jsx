@@ -72,7 +72,7 @@ const Navbar = () => {
             to="hiw-wrapper"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-45}
             onClick={() => setopen(false)}
           >
             <span>Services</span>
@@ -91,7 +91,7 @@ const Navbar = () => {
             to="timeline-section"
             spy={true}
             smooth={true}
-            offset={-65}
+            offset={-55}
             onClick={() => setopen(false)}
           >
             <span>About </span>
