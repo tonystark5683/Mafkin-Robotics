@@ -72,7 +72,7 @@ const WhatWeDo = () => {
                 className="card"
               >
                 <Lottie animationData={pic3} className="img" />
-                <h1>substantial 20% increase in fuel efficiency</h1>
+                <h1>Substantial 20% increase in fuel efficiency</h1>
                 <p>
                   Save 20% on fuel costs with cleaner ships and reduced drag.
                 </p>

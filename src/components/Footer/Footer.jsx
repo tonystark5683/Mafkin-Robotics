@@ -7,47 +7,47 @@ const Footer = () => {
       <div className="sb-footer section-padding">
         <div className="sb-footer-links">
           <div className="sb-footer-links-div">
-            <h4>For Bussiness</h4>
-            <a href="">
+            <h4>For Business</h4>
+            <a >
               <p>Employer</p>
             </a>
-            <a href="">
+            <a >
               <p>Health plan</p>
             </a>
-            <a href="">
+            <a >
               <p>Individual</p>
             </a>
           </div>
           <div className="sb-footer-links-div">
             <h4>Resources</h4>
-            <a href="">
+            <a >
               <p>Resource center</p>
             </a>
-            <a href="">
+            <a >
               <p>Testimonials</p>
             </a>
-            <a href="">
+            <a >
               <p>STV</p>
             </a>
           </div>
-          <div className="sb-footer-links-div">
-          <h4>Sponshor</h4>
-            <a href="">
-              <p>GG-Company</p>
+          {/* <div className="sb-footer-links-div">
+          <h4>Sponsor</h4>
+            <a >
+              <p></p>
             </a>
-          </div>
+          </div> */}
           <div className="sb-footer-links-div">
           <h4>Company</h4>
-            <a href="">
+            <a >
               <p>About</p>
             </a>
-            <a href="">
+            <a >
               <p>Press</p>
             </a>
-            <a href="">
+            <a >
               <p>Career</p>
             </a>
-            <a href="">
+            <a >
               <p>Contact</p>
             </a>
           </div>
@@ -71,10 +71,10 @@ const Footer = () => {
             </p>
            </div>
            <div className="sb-footer-below-links">
-            <a href=""><div><p>Terms & Conditions</p></div></a>
-            <a href=""><div><p>Privacy</p></div></a>
-            <a href=""><div><p>Security</p></div></a>
-            <a href=""><div><p>Cookie Declaration</p></div></a>
+            <a ><div><p>Terms & Conditions</p></div></a>
+            <a ><div><p>Privacy</p></div></a>
+            <a ><div><p>Security</p></div></a>
+            <a ><div><p>Cookie Declaration</p></div></a>
 
            </div>
         </div>
