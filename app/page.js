@@ -18,6 +18,7 @@ import Contact from "@/src/components/Contact/Contact";
 import HBottom from "@/src/components/HBottom/HBottom";
 import AboutUs from "@/src/components/AboutUs/AboutUs";
 import Timeline from "@/src/components/Timeline/Timeline";
+import Brocure from "@/src/components/Brochure/Brocure";
 export default function Home() {
   const controls = useAnimation();
 
@@ -35,8 +36,8 @@ export default function Home() {
         {/* <OurDiff /> */}
       </div>
 
-      
-        <OurProcess />
+        <Brocure/>
+        {/* <OurProcess /> */}
         {/* <Partner /> */}
         <Map />
         <div className="ocean-bg2">

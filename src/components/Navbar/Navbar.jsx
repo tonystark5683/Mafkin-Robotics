@@ -27,7 +27,7 @@ const Navbar = () => {
           {/* Right */}
           <div className="n-right">
             <div className="options">
-              <Link to="od-wrapper" spy={true} smooth={true} offset={-100}>
+              <Link to="hiw-wrapper" spy={true} smooth={true} offset={-80}>
               <span>Services</span></Link>
               <Link to="od-wrapper" spy={true} smooth={true} offset={-100}><span>Product</span></Link>
               <Link to="" spy={true} smooth={true} offset={-100}><span>Career</span></Link>
@@ -50,7 +50,7 @@ const Navbar = () => {
           className="m-options"
           style={{ transform: open && "translateX(0%)" }}
         >
-          <Link to="od-wrapper" spy={true} smooth={true} offset={-100}  onClick={() => setopen(false)}><span>Services</span></Link>
+          <Link to="hiw-wrapper" spy={true} smooth={true} offset={-80}  onClick={() => setopen(false)}><span>Services</span></Link>
           <Link to="od-wrapper" spy={true} smooth={true} offset={-100} onClick={() => setopen(false)}><span>Product</span></Link>
           <Link to="od-wrapper" spy={true} smooth={true} offset={-100} onClick={() => setopen(false)}><span>Career</span></Link>
           <Link to="od-wrapper" spy={true} smooth={true} offset={-100} onClick={() => setopen(false)}><span>About </span></Link>

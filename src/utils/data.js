@@ -83,18 +83,18 @@ export const ourDiffFeatures = [
 export const hitFeatures = [
   {
     icon: "/howItWorks/Frame-0.png",
-    title: "Connect",
-    des: "Register and qualify for funding in less than 5 mins. Connect revenue and marketing platforms you already use.",
+    title: "Autonomous Solution",
+    des: "GPS-guided cleaning for ships on the go. Our autonomous robots use GPS navigation to clean ship hulls automatically, without the need for human intervention.",
   },
   {
     icon: "/howItWorks/Frame-1.png",
-    title: "Get Funded",
-    des: "Get a term sheet with upto 3 funding offers. Select option that best suits and complete onboarding to receive funds in days",
+    title: "Semi-autonomous Solution",
+    des: "Remotely controlled cleaning for hard-to-reach areas. Our semi-autonomous robots are remotely operated by skilled technicians, allowing them to clean hard-to-reach areas and complex hull geometries.",
   },
   {
     icon: "/howItWorks/Frame-2.png",
-    title: "Support Growth",
-    des: "Access curated feed of actionable insights and on demand execution expertise. Auto qualify for follow on funding as you grow",
+    title: "Dry-docking",
+    des: "Lifted and cleaned for a pristine hull. Our dry cleaning service uses a state-of-the-art lift system to raise ships out of the water so that their hulls can be cleaned and inspected.",
   },
 ];
 

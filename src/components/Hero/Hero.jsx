@@ -41,7 +41,7 @@ function Hero() {
           <div className="h-right">
             <div className="h-title">
               <span>Mafkin Robotics</span>
-              <span>We Keeps Fleet Clean</span>
+              <span>Revolutionizing Hull cleaning</span>
               <TypeAnimation
                 sequence={[
                   "60% increase in cleaning efficiency",

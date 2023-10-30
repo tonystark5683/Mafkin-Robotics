@@ -14,8 +14,8 @@
     background: var(--allbgcolor);
     flex: 30%;
     display: flex;
-    padding: 0 3rem;
-    padding-top: 3rem;
+    padding: 0 1.8rem;
+    padding-top: 3rem ;
     flex-direction: column;
     gap: 1.5rem;
     border-radius: 25px;
@@ -27,7 +27,7 @@
 }
 .m-left .text{
     text-align: center;
-    font-size: .9rem;
+    font-size: .8rem;
     line-height: 2rem;
     color: whitesmoke;
 }

@@ -1,15 +1,18 @@
 import React from "react";
 import "./Timeline.css";
-import { fadeIn,tagVaraints } from "@/src/utils/animation";
+import { fadeIn, tagVaraints } from "@/src/utils/animation";
 import { motion } from "framer-motion";
 const Timeline = () => {
   return (
     <section class="timeline-section">
-      <motion.span className="m-heading"
-                    variants={tagVaraints}
-                    initial="offscreen"
-                    whileInView={"onscreen"}
-      ><h2>Mafkin Milestones</h2></motion.span>
+      <motion.span
+        className="m-heading"
+        variants={tagVaraints}
+        initial="offscreen"
+        whileInView={"onscreen"}
+      >
+        <h2>Mafkin Milestones</h2>
+      </motion.span>
       <div className="timeline-items">
         <div className="timeline-item">
           <div className="timeline-dot"></div>
