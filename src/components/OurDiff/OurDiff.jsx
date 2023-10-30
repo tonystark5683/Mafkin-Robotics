@@ -35,23 +35,6 @@ const OurDiff = () => {
     slidesToScroll: 1,
   };
   const [showVideo, setShowVideo] = useState(false);
-  const data = [
-    {
-      icon: "/OurDiff/pic1.jpg",
-      title: "Best Automation Robots",
-      des: "Our mission is to level the playing field for early stage growth capital. We provide capital that We provide capital that We provide that that capital that ",
-    },
-    {
-      icon: "/OurDiff/pic3.jpg",
-      title: "Mutliple Ports Availability",
-      des: "On demand expertise to supercharge growth in areas that are hard to access for early stage founders We provide capital that  that We that provide capital that",
-    },
-    {
-      icon: "/OurDiff/pic3.jpeg",
-      title: "Ease In process",
-      des: "Funding that flexes as revenue grows with transparent costs and does not require dilution, personal We provide capital that We provide capital that ",
-    },
-  ];
 
   return (
     <div className="od-wrapper">
@@ -104,14 +87,11 @@ const OurDiff = () => {
                   <div className="od-slider-content">
                     <span className="tag">Best Automation Robots</span>
                     <br />
-                    <span className="text">
-                      Mafkin Robotics pioneers user-friendly automation robots,
-                      transforming industrial operations. With a focus on
-                      precision and efficiency, our technology simplifies
-                      complex tasks, integrating seamlessly across diverse
-                      sectors, and driving enhanced productivity in an
-                      ever-evolving business landscape.
-                    </span>
+                    <div className="team-mem">
+              <img src="person2.jpg" alt="Team Member" />
+              <h4>Mrs. Emma</h4>
+              <p>Graphic Designer</p>
+            </div>
 
                     <div className="od-slider-button">
                       <button>Explore More</button>
@@ -123,15 +103,11 @@ const OurDiff = () => {
                   <div className="od-slider-content">
                     <span className="tag">Multiple Ports Availability</span>
                     <br />
-                    <span className="text">
-                      Our company facilitates effortless navigation across
-                      multiple ports through advanced solutions, ensuring
-                      efficient and convenient access to shipping
-                      channels. Our logistics management
-                      streamlines operations, guaranteeing reliable connectivity
-                      and optimized performance for seamless maritime endeavors
-                      and global connectivity.
-                    </span>
+                    <div className="team-mem">
+              <img src="person2.jpg" alt="Team Member" />
+              <h4>Mrs. Emma</h4>
+              <p>Graphic Designer</p>
+            </div>
                     <div className="od-slider-button">
                       <button>Explore More</button>
                     </div>
@@ -142,14 +118,11 @@ const OurDiff = () => {
                   <div className="od-slider-content">
                     <span className="tag">Ease In Process</span>
                     <br />
-                    <span className="text">
-                      At Mafkin Robotics, we prioritize simplicity in complex
-                      procedures, providing streamlined solutions to optimize
-                      workflow efficiency. Our innovative tools and user-centric
-                      approach offer a hassle-free experience, fostering
-                      enhanced productivity and seamless management throughout
-                      every stage of your operational process.
-                    </span>
+                    <div className="team-mem">
+              <img src="person2.jpg" alt="Team Member" />
+              <h4>Mrs. Emma</h4>
+              <p>Graphic Designer</p>
+            </div>
                     <div className="od-slider-button">
                       <button>Explore More</button>
                     </div>

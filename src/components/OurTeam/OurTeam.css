@@ -15,16 +15,6 @@
   align-items: center;
 }
 
-.mySwiper .ot-slider {
-  display: flex;
-  justify-content: center;
-  border-radius: 25px;
-}
-
-.mySwiper {
-  width: 99%;
-}
-
 .ot-container {
   display: flex;
   flex-direction: column;
@@ -43,18 +33,77 @@
 .ot-container .title {
   color: var(--allbgcolor);
   font-size: 1.6rem;
-  padding-bottom: 2.6rem;
 }
-
-.ot-card-image {
-  position: relative;
-  height: 150px;
-  width: 150px;
+.ot-line div {
+  margin: 0 0.2rem;
+}
+.ot-line div:nth-child(1),
+.ot-line div:nth-child(3) {
+  height: 3px;
+  width: 70px;
+  background-color:  var(--allbgcolor);
+  border-radius: 5px;
+}
+.ot-line {
+  display: flex;
+  align-items: center;
+}
+.ot-line div:nth-child(2) {
+  width: 10px;
+  height: 10px;
+  background: #687eff;
   border-radius: 50%;
-  background: #fff;
-  padding: 3px;
+}
+.tt-wrapper{
+  background: var(--allbgcolor);
+  width: 580px;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
+.tt-wrapper h2{
+  text-align: center;
+  color: #fff;
+}
+.tt-wrapper hr{
+  width: 100px;
+  height: 1px;
+  background: linear-gradient(to right, #4a90e2, #ffffff, #4a90e2);
+  margin: 10px auto;
+}
+.members{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.team-mem{
+  margin: 8px;
+}
+.team-mem img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.team-mem h4{
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  margin: 7px;
 }
 
+
+.mySwiper .ot-slider {
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+.mySwiper {
+  width: 99%;}
+/* 
 .ot-card {
   width: 350px;
   height: 515px;
@@ -162,7 +211,7 @@
 	margin: 0 5px;
 	height: 40px;
 	width: 40px;
-}
+} */
 
 @media (max-width: 1080px) {
 
@@ -178,25 +227,8 @@
 }
 
 @media (max-width: 768px) {
-  .ot-card {
-    width: 90%;
-    height: max-content;
-  }
-
-  .ot-card-image {
-    height: 120px;
-    width: 120px;
-  }
-
-  .ot-card-content .ot-name {
-    font-size: 24px;
-  }
-  .ot-button {
-    font-size: 10px;
-  }
   .ot-container .tag {
     width: 95%;
-    color: grey;
     font-size: 1rem;
     line-height: 20px;
   }
@@ -206,6 +238,20 @@
     font-size: 1.6rem;
     padding-bottom: 1rem;
   }
+  .team-mem{
+    margin: 3px;
+  }
+  .team-mem img{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+  }
+  .team-mem h4,p{
+    text-align: center;
+    font-size: 8px;
+    margin: 3px;
+  }
+  
 }
 
 @media (max-width: 480px) {

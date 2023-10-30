@@ -31,8 +31,8 @@ const GoToTop = () => {
     <ThemeProvider
       theme={{
         colors: {
-          btn: "#4070f4", // Sample color value
-          shadow: "2px 2px 4px #000000", // Sample shadow value
+          btn: "#1F428F", // Sample color value
+          shadow: "0px 1px 8px 1px white", // Sample shadow value
         },
         media: {
           mobile: "768px", // Sample mobile breakpoint
