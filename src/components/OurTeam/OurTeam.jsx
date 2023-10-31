@@ -11,7 +11,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
 // import required modules
-import { EffectCoverflow, Pagination } from "swiper/modules";
+import { Autoplay,EffectCoverflow, Pagination } from "swiper/modules";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/src/utils/animation";
 const OurTeam = () => {
@@ -65,8 +65,12 @@ const OurTeam = () => {
             slideShadows: true,
           }}
           pagination={true}
-          modules={[EffectCoverflow, Pagination]}
+          modules={[Autoplay,EffectCoverflow, Pagination]}
           initialSlide={2}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           className="mySwiper"
         >
           <SwiperSlide className="ot-slider">
