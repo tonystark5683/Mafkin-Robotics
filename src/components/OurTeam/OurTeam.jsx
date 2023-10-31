@@ -140,7 +140,7 @@ const OurTeam = () => {
           <div className="members">
             <div className="team-mem">
               <img src="person2.jpg" alt="Team Member" />
-              <h4>Mubin Chinchwalker</h4>
+              <h4>Mubin Chinchwalkar</h4>
               {/* <p>Graphic Designer</p> */}
             </div>
             <div className="team-mem">
