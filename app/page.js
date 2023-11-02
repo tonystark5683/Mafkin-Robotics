@@ -43,7 +43,7 @@ export default function Home() {
         <div className="ocean-bg2">
         <Timeline/></div>
         {/* <Faq /> */}
-        <OurTeam />
+        {/* <OurTeam /> */}
       
       <Contact />
       <GoToTop />
