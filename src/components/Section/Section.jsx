@@ -7,6 +7,7 @@ import { tagVaraints } from "@/src/utils/animation";
 import { fadeIn } from "@/src/utils/animation";
 import Lottie from "lottie-react";
 import about from "./about.json";
+import { Link } from "react-scroll";
 const Section = () => {
   return (
     <div className="section">
@@ -34,15 +35,16 @@ const Section = () => {
             This contributes to a more sustainable and streamlined maritime
             industry easing operations in Ship Husbandry.
           </motion.span>
-
-          <motion.div
-            variants={containerVariants(0.6)}
-            initial="offscreen"
-            whileInView={"onscreen"}
-            className="s-button"
-          >
-            Explore More
-          </motion.div>
+          <Link to="timeline-section" spy={true} smooth={true} offset={-58}>
+            <motion.div
+              variants={containerVariants(0.6)}
+              initial="offscreen"
+              whileInView={"onscreen"}
+              className="s-button"
+            >
+              Explore More
+            </motion.div>
+          </Link>
         </div>
 
         <motion.div
